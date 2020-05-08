@@ -1,1 +1,352 @@
-!function(t){var e={};function r(n){if(e[n])return e[n].exports;var o=e[n]={i:n,l:!1,exports:{}};return t[n].call(o.exports,o,o.exports,r),o.l=!0,o.exports}r.m=t,r.c=e,r.d=function(t,e,n){r.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:n})},r.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},r.t=function(t,e){if(1&e&&(t=r(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var o in t)r.d(n,o,function(e){return t[e]}.bind(null,o));return n},r.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return r.d(e,"a",e),e},r.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},r.p="/",r(r.s=22)}({22:function(t,e,r){t.exports=r(23)},23:function(t,e){!function(t){"use strict";var e=function(){this.$body=t("body"),this.$chatInput=t(".chat-input"),this.$chatList=t(".conversation-list"),this.$chatSendBtn=t(".chat-send"),this.$chatForm=t("#chat-form")};e.prototype.save=function(){var e=this.$chatInput.val(),r=moment().format("h:mm");return""==e?(this.$chatInput.focus(),!1):(t('<li class="clearfix odd"><div class="chat-avatar"><img src="assets/images/users/avatar-7.jpg" alt="male"><i>'+r+'</i></div><div class="conversation-text"><div class="ctext-wrap"><i>Shreyu</i><p>'+e+"</p></div></div></li>").appendTo(".conversation-list"),this.$chatInput.focus(),this.$chatList.animate({scrollTop:this.$chatList.prop("scrollHeight")},1e3),!0)},e.prototype.init=function(){var t=this;t.$chatInput.keypress((function(e){if(13==e.which)return t.save(),!1})),t.$chatForm.on("submit",(function(e){return e.preventDefault(),t.save(),t.$chatForm.removeClass("was-validated"),t.$chatInput.val(""),!1}))},t.ChatApp=new e,t.ChatApp.Constructor=e}(window.jQuery),function(t){"use strict";var e=function(){};e.prototype.initCharts=function(){window.Apex={chart:{parentHeightOffset:0,toolbar:{show:!1}},grid:{padding:{left:0,right:0}},colors:["#5369f8","#43d39e","#f77e53","#ffbe0b"],tooltip:{theme:"dark",x:{show:!1}}};var e={chart:{type:"area",height:45,width:90,sparkline:{enabled:!0}},series:[{data:[25,66,41,85,63,25,44,12,36,9,54]}],stroke:{width:2,curve:"smooth"},markers:{size:0},colors:["#5369f8"],tooltip:{fixed:{enabled:!1},x:{show:!1},y:{title:{formatter:function(t){return""}}},marker:{show:!1}},fill:{type:"gradient",gradient:{type:"vertical",shadeIntensity:1,inverseColors:!1,opacityFrom:.45,opacityTo:.05,stops:[45,100]}}};new ApexCharts(document.querySelector("#today-revenue-chart"),e).render(),new ApexCharts(document.querySelector("#today-product-sold-chart"),t.extend({},e,{colors:["#f77e53"]})).render(),new ApexCharts(document.querySelector("#today-new-customer-chart"),t.extend({},e,{colors:["#43d39e"]})).render(),new ApexCharts(document.querySelector("#today-new-visitors-chart"),t.extend({},e,{colors:["#ffbe0b"]})).render();for(var r=[],n=1;n<=10;n++)r.push("2018-09-"+n);e={chart:{type:"area",height:160,sparkline:{enabled:!0}},stroke:{width:3,curve:"smooth"},fill:{opacity:.2},series:[{name:"Data",data:[47,45,54,38,56,24,65,31,37,39]}],xaxis:{type:"datetime"},yaxis:{min:0},colors:["#5369f8"],labels:r,title:{text:"21,000",offsetX:5,offsetY:10,margin:0,style:{fontSize:"24px"}},subtitle:{text:"Visits",offsetX:5,offsetY:45,margin:0,style:{fontSize:"16px"}}};new ApexCharts(document.querySelector("#traffic-chart"),e).render();var o=t.extend({},e.title,{text:"1100"}),i=t.extend({},e.subtitle,{text:"Customers"});new ApexCharts(document.querySelector("#customers-chart"),t.extend({},e,{colors:["#43d39e"],title:o,subtitle:i})).render();var a=t.extend({},e.title,{text:"$201,200"}),s=t.extend({},e.subtitle,{text:"Revenue"});new ApexCharts(document.querySelector("#revenue-chart"),t.extend({},e,{colors:["#f77e53"],title:a,subtitle:s})).render()},e.prototype.init=function(){this.initCharts(),t("#calendar-widget").flatpickr({inline:!0,shorthandCurrentMonth:!0}),t.ChatApp.init()},t.WidgetsPage=new e,t.WidgetsPage.Constructor=e}(window.jQuery),function(t){"use strict";window.jQuery.WidgetsPage.init()}()}});
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./resources/js/pages/widgets.init.js":
+/*!********************************************!*\
+  !*** ./resources/js/pages/widgets.init.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+Template Name: Shreyu - Responsive Bootstrap 4 Admin Dashboard
+Author: CoderThemes
+Version: 1.0.0
+Website: https://coderthemes.com/
+Contact: support@coderthemes.com
+File: Widgets init js
+*/
+!function ($) {
+  "use strict";
+
+  var ChatApp = function ChatApp() {
+    this.$body = $("body"), this.$chatInput = $('.chat-input'), this.$chatList = $('.conversation-list'), this.$chatSendBtn = $('.chat-send'), this.$chatForm = $("#chat-form");
+  };
+
+  ChatApp.prototype.save = function () {
+    var chatText = this.$chatInput.val();
+    var chatTime = moment().format("h:mm");
+
+    if (chatText == "") {
+      this.$chatInput.focus();
+      return false;
+    } else {
+      $('<li class="clearfix odd"><div class="chat-avatar"><img src="assets/images/users/avatar-7.jpg" alt="male"><i>' + chatTime + '</i></div><div class="conversation-text"><div class="ctext-wrap"><i>Shreyu</i><p>' + chatText + '</p></div></div></li>').appendTo('.conversation-list');
+      this.$chatInput.focus();
+      this.$chatList.animate({
+        scrollTop: this.$chatList.prop("scrollHeight")
+      }, 1000);
+      return true;
+    }
+  }; // init
+
+
+  ChatApp.prototype.init = function () {
+    var $this = this; //binding keypress event on chat input box - on enter we are adding the chat into chat list - 
+
+    $this.$chatInput.keypress(function (ev) {
+      var p = ev.which;
+
+      if (p == 13) {
+        $this.save();
+        return false;
+      }
+    }); //binding send button click
+
+    $this.$chatForm.on('submit', function (ev) {
+      ev.preventDefault();
+      $this.save();
+      $this.$chatForm.removeClass('was-validated');
+      $this.$chatInput.val('');
+      return false;
+    });
+  }, //init ChatApp
+  $.ChatApp = new ChatApp(), $.ChatApp.Constructor = ChatApp;
+}(window.jQuery), function ($) {
+  "use strict";
+
+  var WidgetsPage = function WidgetsPage() {};
+
+  WidgetsPage.prototype.initCharts = function () {
+    window.Apex = {
+      chart: {
+        parentHeightOffset: 0,
+        toolbar: {
+          show: false
+        }
+      },
+      grid: {
+        padding: {
+          left: 0,
+          right: 0
+        }
+      },
+      colors: ["#5369f8", "#43d39e", "#f77e53", "#ffbe0b"],
+      tooltip: {
+        theme: 'dark',
+        x: {
+          show: false
+        }
+      }
+    }; // 
+    // Stats
+    //
+
+    var options2 = {
+      chart: {
+        type: 'area',
+        height: 45,
+        width: 90,
+        sparkline: {
+          enabled: true
+        }
+      },
+      series: [{
+        data: [25, 66, 41, 85, 63, 25, 44, 12, 36, 9, 54]
+      }],
+      stroke: {
+        width: 2,
+        curve: 'smooth'
+      },
+      markers: {
+        size: 0
+      },
+      colors: ["#5369f8"],
+      tooltip: {
+        fixed: {
+          enabled: false
+        },
+        x: {
+          show: false
+        },
+        y: {
+          title: {
+            formatter: function formatter(seriesName) {
+              return '';
+            }
+          }
+        },
+        marker: {
+          show: false
+        }
+      },
+      fill: {
+        type: 'gradient',
+        gradient: {
+          type: "vertical",
+          shadeIntensity: 1,
+          inverseColors: false,
+          opacityFrom: 0.45,
+          opacityTo: 0.05,
+          stops: [45, 100]
+        }
+      }
+    };
+    new ApexCharts(document.querySelector("#today-revenue-chart"), options2).render();
+    new ApexCharts(document.querySelector("#today-product-sold-chart"), $.extend({}, options2, {
+      colors: ['#f77e53']
+    })).render();
+    new ApexCharts(document.querySelector("#today-new-customer-chart"), $.extend({}, options2, {
+      colors: ['#43d39e']
+    })).render();
+    new ApexCharts(document.querySelector("#today-new-visitors-chart"), $.extend({}, options2, {
+      colors: ['#ffbe0b']
+    })).render(); // ------------------- revenue chart
+    // data for the sparklines that appear below header area
+
+    var sparklineData = [47, 45, 54, 38, 56, 24, 65, 31, 37, 39]; // the default colorPalette for this dashboard
+
+    var labelsSales = [];
+
+    for (var i = 1; i <= 10; i++) {
+      labelsSales.push('2018-09-' + i);
+    }
+
+    var options2 = {
+      chart: {
+        type: 'area',
+        height: 160,
+        sparkline: {
+          enabled: true
+        }
+      },
+      stroke: {
+        width: 3,
+        curve: 'smooth'
+      },
+      fill: {
+        opacity: 0.2
+      },
+      series: [{
+        name: 'Data',
+        data: sparklineData
+      }],
+      xaxis: {
+        type: 'datetime'
+      },
+      yaxis: {
+        min: 0
+      },
+      colors: ['#5369f8'],
+      labels: labelsSales,
+      title: {
+        text: '21,000',
+        offsetX: 5,
+        offsetY: 10,
+        margin: 0,
+        style: {
+          fontSize: '24px'
+        }
+      },
+      subtitle: {
+        text: 'Visits',
+        offsetX: 5,
+        offsetY: 45,
+        margin: 0,
+        style: {
+          fontSize: '16px'
+        }
+      }
+    };
+    new ApexCharts(document.querySelector("#traffic-chart"), options2).render();
+    var customersTitles = $.extend({}, options2.title, {
+      text: '1100'
+    });
+    var customersSubTitles = $.extend({}, options2.subtitle, {
+      text: 'Customers'
+    });
+    new ApexCharts(document.querySelector("#customers-chart"), $.extend({}, options2, {
+      colors: ['#43d39e'],
+      title: customersTitles,
+      subtitle: customersSubTitles
+    })).render();
+    var revenueTitle = $.extend({}, options2.title, {
+      text: '$201,200'
+    });
+    var revenueSubTitle = $.extend({}, options2.subtitle, {
+      text: 'Revenue'
+    });
+    new ApexCharts(document.querySelector("#revenue-chart"), $.extend({}, options2, {
+      colors: ['#f77e53'],
+      title: revenueTitle,
+      subtitle: revenueSubTitle
+    })).render();
+  }, //initializing
+  WidgetsPage.prototype.init = function () {
+    // charts
+    this.initCharts(); // calendar
+
+    $('#calendar-widget').flatpickr({
+      inline: true,
+      shorthandCurrentMonth: true
+    }); // chat
+
+    $.ChatApp.init();
+  }, $.WidgetsPage = new WidgetsPage(), $.WidgetsPage.Constructor = WidgetsPage;
+}(window.jQuery), //initializing main application module
+function ($) {
+  "use strict";
+
+  $.WidgetsPage.init();
+}(window.jQuery);
+
+/***/ }),
+
+/***/ 11:
+/*!**************************************************!*\
+  !*** multi ./resources/js/pages/widgets.init.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! /home/gate/Projects/vlems/resources/js/pages/widgets.init.js */"./resources/js/pages/widgets.init.js");
+
+
+/***/ })
+
+/******/ });

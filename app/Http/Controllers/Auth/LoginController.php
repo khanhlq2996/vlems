@@ -36,4 +36,11 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    public function index() {
+        if(!Auth()->check()) {
+            return view('admin.auth.login');
+        }
+        return redirect()->url('/');
+    }
 }
