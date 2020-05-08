@@ -8,6 +8,94 @@
             <span> Dashboard </span>
         </a>
     </li>
+
+    <li class="menu-title">Công ty</li>
+    <li>
+        <a href="javascript: void(0);">
+            <i class="uil uil-building"></i>
+            <span>  Công ty </span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/company/page/1">Danh sách Công ty</a>
+            </li>
+            <li>
+                <a href="/admin/company/add">Thêm Công ty mới</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="javascript: void(0);">
+            <i data-feather="package"></i>
+            <span>Chương trình xuất khẩu</span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/program/page/1">Danh sách Chương trình</a>
+            </li>
+            <li>
+                <a href="/admin/program/add">Thêm Chương trình mới</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="javascript: void(0);">
+            <i class="uil-suitcase"></i>
+            <span>Hồ sơ Xuất khẩu</span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/cv/page/1">Danh sách Hồ sơ</a>
+            </li>
+            <li>
+                <a href="/admin/cv/add">Thêm Hồ sơ mới</a>
+            </li>
+        </ul>
+    </li>
+    
+
+    <li class="menu-title">Đại lý</li>
+    <li>
+        <a href="javascript: void(0);">
+            <i class="uil-users-alt"></i>
+            <span>  Đại lý </span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/agency/page/1">Danh sách Đại lý</a>
+            </li>
+            <li>
+                <a href="/admin/agency/add">Thêm Đại lý mới</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="javascript: void(0);">
+            <i class="uil-store"></i>
+            <span>  Tin rao </span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/empads/page/1">Danh sách Tin rao</a>
+            </li>
+            <li>
+                <a href="/admin/empads/add">Thêm Tin rao mới</a>
+            </li>
+        </ul>
+    </li>
+
     <li class="menu-title">Apps</li>
     <li>
         <a href="/admin/apps/calendar">

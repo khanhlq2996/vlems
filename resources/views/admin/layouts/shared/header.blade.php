@@ -33,41 +33,8 @@
                 </div>
             </li>
 
-            <li class="dropdown d-none d-lg-block" data-toggle="tooltip" data-placement="left" title="Change language">
-                <a class="nav-link dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button"
-                    aria-haspopup="false" aria-expanded="false">
-                    <i data-feather="globe"></i>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right">
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="{{ URL::asset('assets/images/flags/germany.jpg') }}" alt="user-image" class="mr-2" height="12"> <span
-                            class="align-middle">German</span>
-                    </a>
-
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="{{ URL::asset('assets/images/flags/italy.jpg') }}" alt="user-image" class="mr-2" height="12"> <span
-                            class="align-middle">Italian</span>
-                    </a>
-
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="{{ URL::asset('assets/images/flags/spain.jpg') }}" alt="user-image" class="mr-2" height="12"> <span
-                            class="align-middle">Spanish</span>
-                    </a>
-
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="{{ URL::asset('assets/images/flags/russia.jpg') }}" alt="user-image" class="mr-2" height="12"> <span
-                            class="align-middle">Russian</span>
-                    </a>
-                </div>
-            </li>
-
-
             <li class="dropdown notification-list" data-toggle="tooltip" data-placement="left"
-                title="8 new unread notifications">
+                title="8 thông báo mới">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="false"
                     aria-expanded="false">
                     <i data-feather="bell"></i>
@@ -80,9 +47,9 @@
                         <h5 class="m-0 font-size-16">
                             <span class="float-right">
                                 <a href="" class="text-dark">
-                                    <small>Clear All</small>
+                                    <small>Xóa tất cả</small>
                                 </a>
-                            </span>Notification
+                            </span>Thông báo
                         </h5>
                     </div>
 
@@ -91,7 +58,7 @@
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom">
                             <div class="notify-icon bg-primary"><i class="uil uil-user-plus"></i></div>
-                            <p class="notify-details">New user registered.<small class="text-muted">5 hours ago</small>
+                            <p class="notify-details">Đăng ký người lao động mới.<small class="text-muted">5 hours ago</small>
                             </p>
                         </a>
 
@@ -100,9 +67,7 @@
                             <div class="notify-icon">
                                 <img src="{{ URL::asset('assets/images/users/avatar-1.jpg') }}" class="img-fluid rounded-circle" alt="" />
                             </div>
-                            <p class="notify-details">Karen Robinson</p>
-                            <p class="text-muted mb-0 user-msg">
-                                <small>Wow ! this admin looks good and awesome design</small>
+                            <p class="notify-details">Đăng ký người lao động mới.<small class="text-muted">5 hours ago</small>
                             </p>
                         </a>
 
@@ -111,25 +76,22 @@
                             <div class="notify-icon">
                                 <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}" class="img-fluid rounded-circle" alt="" />
                             </div>
-                            <p class="notify-details">Cristina Pride</p>
-                            <p class="text-muted mb-0 user-msg">
-                                <small>Hi, How are you? What about our next meeting</small>
+                            <p class="notify-details">Đăng ký người lao động mới.<small class="text-muted">5 hours ago</small>
                             </p>
                         </a>
 
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom active">
                             <div class="notify-icon bg-success"><i class="uil uil-comment-message"></i> </div>
-                            <p class="notify-details">Jaclyn Brunswick commented on Dashboard<small class="text-muted">1
-                                    min
-                                    ago</small></p>
+                            <p class="notify-details">Đăng ký người lao động mới.<small class="text-muted">5 hours ago</small>
+                            </p>
                         </a>
 
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom">
                             <div class="notify-icon bg-danger"><i class="uil uil-comment-message"></i></div>
-                            <p class="notify-details">Caleb Flakelar commented on Admin<small class="text-muted">4 days
-                                    ago</small></p>
+                            <p class="notify-details">Đăng ký người lao động mới.<small class="text-muted">5 hours ago</small>
+                            </p>
                         </a>
 
                         <!-- item-->
@@ -137,9 +99,7 @@
                             <div class="notify-icon bg-primary">
                                 <i class="uil uil-heart"></i>
                             </div>
-                            <p class="notify-details">Carlos Crouch liked
-                                <b>Admin</b>
-                                <small class="text-muted">13 days ago</small>
+                            <p class="notify-details">Đăng ký người lao động mới.<small class="text-muted">5 hours ago</small>
                             </p>
                         </a>
                     </div>
@@ -147,17 +107,11 @@
                     <!-- All-->
                     <a href="javascript:void(0);"
                         class="dropdown-item text-center text-primary notify-item notify-all border-top">
-                        View all
+                        Xem Tất cả
                         <i class="fi-arrow-right"></i>
                     </a>
 
                 </div>
-            </li>
-
-            <li class="dropdown notification-list" data-toggle="tooltip" data-placement="left" title="Settings">
-                <a href="javascript:void(0);" class="nav-link right-bar-toggle">
-                    <i data-feather="settings"></i>
-                </a>
             </li>
 
             <li class="dropdown notification-list align-self-center profile-dropdown">
