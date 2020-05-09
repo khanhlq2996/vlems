@@ -5,11 +5,79 @@
         <a href="/admin/">
             <i data-feather="home"></i>
             <span class="badge badge-success float-right">1</span>
-            <span> Dashboard </span>
+            <span> Tổng quan </span>
         </a>
     </li>
 
+    <li>
+        <a href="javascript: void(0);">
+            <i class="uil-chart-line"></i>
+            <span>  Báo cáo </span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/report/program/1">Báo cáo Chương trình XK</a>
+            </li>
+            <li>
+                <a href="/admin/report/cv/1">Báo cáo Hồ sơ XK</a>
+            </li>
+            <li>
+                <a href="/admin/report/program/1">Báo cáo Hồ sơ XK</a>
+            </li>
+            <li>
+                <a href="/admin/report/program/1">Báo cáo Hồ sơ XK</a>
+            </li>
+        </ul>
+    </li>
+
     <li class="menu-title">Công ty</li>
+
+    <li>
+        <a href="/admin/apps/calendar">
+            <i data-feather="calendar"></i>
+            <span> Calendar </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="javascript: void(0);">
+            <i data-feather="bookmark"></i>
+            <span> Tasks </span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/apps/task/list">List</a>
+            </li>
+            <li>
+                <a href="/admin/apps/task/board">Kanban Board</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="javascript: void(0);">
+            <i data-feather="inbox"></i>
+            <span> Email </span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/apps/email/inbox">Hộp thư đến</a>
+            </li>
+            <li>
+                <a href="/admin/apps/email/read">Đã đọc</a>
+            </li>
+            <li>
+                <a href="/admin/apps/email/compose">Soạn thư</a>
+            </li>
+        </ul>
+    </li>
+
     <li>
         <a href="javascript: void(0);">
             <i class="uil uil-building"></i>
@@ -20,6 +88,9 @@
         <ul class="nav-second-level" aria-expanded="false">
             <li>
                 <a href="/admin/company/page/1">Danh sách Công ty</a>
+            </li>
+            <li>
+                <a href="/admin/employee/page/1">Danh sách Nhân viên</a>
             </li>
             <li>
                 <a href="/admin/company/add">Thêm Công ty mới</a>
@@ -60,7 +131,8 @@
             </li>
         </ul>
     </li>
-    
+
+
 
     <li class="menu-title">Đại lý</li>
     <li>
@@ -79,6 +151,7 @@
             </li>
         </ul>
     </li>
+
     <li>
         <a href="javascript: void(0);">
             <i class="uil-store"></i>
@@ -96,129 +169,91 @@
         </ul>
     </li>
 
-    <li class="menu-title">Apps</li>
-    <li>
-        <a href="/admin/apps/calendar">
-            <i data-feather="calendar"></i>
-            <span> Calendar </span>
-        </a>
-    </li>
     <li>
         <a href="javascript: void(0);">
-            <i data-feather="inbox"></i>
-            <span> Email </span>
+            <i class="uil-bill"></i>
+            <span>  Đơn hàng </span>
             <span class="menu-arrow"></span>
         </a>
 
         <ul class="nav-second-level" aria-expanded="false">
             <li>
-                <a href="/admin/apps/email/inbox">Inbox</a>
+                <a href="/admin/order/page/1">Danh sách Đơn hàng</a>
             </li>
             <li>
-                <a href="/admin/apps/email/read">Read</a>
-            </li>
-            <li>
-                <a href="/admin/apps/email/compose">Compose</a>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <a href="javascript: void(0);">
-            <i data-feather="briefcase"></i>
-            <span> Projects </span>
-            <span class="menu-arrow"></span>
-        </a>
-    
-        <ul class="nav-second-level" aria-expanded="false">
-            <li>
-                <a href="/admin/apps/project/list">List</a>
-            </li>
-            <li>
-                <a href="/admin/apps/project/detail">Detail</a>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <a href="javascript: void(0);">
-            <i data-feather="bookmark"></i>
-            <span> Tasks </span>
-            <span class="menu-arrow"></span>
-        </a>
-    
-        <ul class="nav-second-level" aria-expanded="false">
-            <li>
-                <a href="/admin/apps/task/list">List</a>
-            </li>
-            <li>
-                <a href="/admin/apps/task/board">Kanban Board</a>
-            </li>
-        </ul>
-    </li>
-    <li class="menu-title">Custom</li>
-    <li>
-        <a href="javascript: void(0);">
-            <i data-feather="file-text"></i>
-            <span> Pages </span>
-            <span class="menu-arrow"></span>
-        </a>
-        <ul class="nav-second-level" aria-expanded="false">
-            <li>
-                <a href="/admin/pages/starter">Starter</a>
-            </li>
-            <li>
-                <a href="/admin/pages/profile">Profile</a>
-            </li>
-            <li>
-                <a href="/admin/pages/activity">Activity</a>
-            </li>
-            <li>
-                <a href="/admin/pages/invoice">Invoice</a>
-            </li>
-            <li>
-                <a href="/admin/pages/pricing">Pricing</a>
-            </li>
-            <li>
-                <a href="/admin/pages/maintenance">Maintenance</a>
-            </li>
-            <li>
-                <a href="/admin/errors/404">Error 404</a>
-            </li>
-            <li>
-                <a href="/admin/errors/500">Error 500</a>
+                <a href="/admin/order/add">Thêm Đơn hàng mới</a>
             </li>
         </ul>
     </li>
 
+    <li class="menu-title">Người lao động</li>
     <li>
         <a href="javascript: void(0);">
-            <i data-feather="layout"></i>
-            <span> Layouts </span>
+            <i class=" uil-constructor"></i>
+            <span> Người lao động </span>
             <span class="menu-arrow"></span>
         </a>
+
         <ul class="nav-second-level" aria-expanded="false">
             <li>
-                <a href="/admin/layout-example/horizontal">Horizontal Nav</a>
+                <a href="/admin/employee/page/1">Danh sách Người lao động</a>
             </li>
             <li>
-                <a href="/admin/layout-example/rtl">RTL</a>
+                <a href="/admin/employee/add">Thêm Người lao động mới</a>
+            </li>
+        </ul>
+    </li>
+
+    <li class="menu-title">Chat</li>
+    <li>
+        <a href="javascript: void(0);">
+            <i class="uil-comments"></i>
+            <span>Chat Room</span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/agency/page/1">Danh sách phòng chat</a>
             </li>
             <li>
-                <a href="/admin/layout-example//dark">Dark</a>
+                <a href="/admin/agency/add">Thêm Phòng chat mới</a>
+            </li>
+        </ul>
+    </li>
+
+{{--    <li class="menu-title">Gói tài khoản</li>--}}
+{{--    <li>--}}
+{{--        <a href="javascript: void(0);">--}}
+{{--            <i class="uil-package"></i>--}}
+{{--            <span>  Gói tài khoản </span>--}}
+{{--            <span class="menu-arrow"></span>--}}
+{{--        </a>--}}
+
+{{--        <ul class="nav-second-level" aria-expanded="false">--}}
+{{--            <li>--}}
+{{--                <a href="/admin/packet/page/1">Danh sách Gói</a>--}}
+{{--            </li>--}}
+{{--            <li>--}}
+{{--                <a href="/admin/packet/add">Thêm Gói mới</a>--}}
+{{--            </li>--}}
+{{--        </ul>--}}
+{{--    </li>--}}
+
+    <li class="menu-title">Cấu hình</li>
+    <li>
+        <a href="javascript: void(0);">
+            <i class="uil-cog"></i>
+            <span>  Cấu hình chung </span>
+            <span class="menu-arrow"></span>
+        </a>
+
+        <ul class="nav-second-level" aria-expanded="false">
+            <li>
+                <a href="/admin/agency/page/1">Danh sách Đại lý</a>
             </li>
             <li>
-                <a href="/admin/layout-example/scrollable">Scrollable</a>
-            </li>
-            <li>
-                <a href="/admin/layout-example/boxed">Boxed</a>
-            </li>
-            <li>
-                <a href="/admin/layout-example/loader">With Pre-loader</a>
-            </li>
-            <li>
-                <a href="/admin/layout-example/dark-sidebar">Dark Side Nav</a>
-            </li>
-            <li>
-                <a href="/admin/layout-example/condensed-sidebar">Condensed Nav</a>
+                <a href="/admin/agency/add">Thêm Đại lý mới</a>
             </li>
         </ul>
     </li>
