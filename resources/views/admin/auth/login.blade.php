@@ -26,7 +26,7 @@
                                 @if(session('success'))<div class="alert alert-success">{{ session('success') }}</div>
                                 <br>@endif
 
-                                <form action="{{ route('login') }}" method="post" class="authentication-form">
+                                <form action="{{ route('access.login') }}" method="post" class="authentication-form">
                                     @csrf
 
                                     <div class="form-group">

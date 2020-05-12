@@ -1,11 +1,42 @@
 <?php
 
-Route::get('admin', function () {
-    return view('admin.dashboard');
+
+Route::group(['namespace' => 'Admin', 'middleware' => 'web'], function () {
+    Route::group(['prefix' => 'admin'], function () {
+        Route::group(['middleware' => 'guest'], function () {
+            Route::get('login', 'LoginController@index')->name('form.login');
+            Route::post('login', 'LoginController@postLogin')->name('access.login');
+        });
+
+        Route::group(['middleware' => 'auth'], function () {
+            Route::get('logout', 'LoginController@logout')->name('access.logout');
+        });
+    });
+
+    // Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
+    //     Route::group(['prefix' => 'system'], function () {
+    //         Route::resource('users', 'UserController')->except(['edit', 'update']);
+    //         Route::group(['prefix' => 'users'], function () {
+    //             Route::get('/profile/{id}', 'UserController@getUserProfile')->name('user.profile.view');
+    //             Route::post('/update-profile/{id}', 'UserController@postUpdateUserProfile')->name('user.update-profile');
+    //             Route::post('/change-password/{id}', 'UserController@postChangeUserPassword')->name('user.change-password');
+    //             Route::post('/change-profile-image', 'UserController@postChangeProfileImage')->name('user.change-profile-image');
+
+    //             Route::delete('items/destroy', [
+    //                 'as'         => 'users.deletes',
+    //                 'uses'       => 'UserController@deletes',
+    //             ]);
+    //         });
+    //     });
+    // });
 });
 
-Route::get('admin/login', function () {
-    return view('admin.auth.login');
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('dashboard', 'DashboardController@index')->name('dashboard.index');
+});
+
+Route::get('dashboard', function () {
+    return view('admin.dashboard');
 });
 
 // Company
