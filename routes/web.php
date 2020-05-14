@@ -30,7 +30,7 @@ Route::get('admin/company/edit/{id}', function ($id) {
 });
 
 Route::get('admin/company/add', function () {
-    return view('admin.company.detail');
+    return view('admin.company.add');
 });
 
 Route::get('admin/employee/page/{page}', function ($page) {
@@ -86,7 +86,7 @@ Route::get('admin/program/detail/{id}', function ($id) {
 });
 
 Route::get('admin/program/edit/{id}', function ($id) {
-    return view('admin.program.add');
+    return view('admin.program.edit');
 });
 
 Route::get('admin/program/add', function () {
@@ -111,11 +111,11 @@ Route::get('admin/agency/detail/{id}', function ($id) {
 });
 
 Route::get('admin/agency/edit/{id}', function ($id) {
-    return view('admin.agency.add');
+    return view('admin.agency.edit');
 });
 
 Route::get('admin/agency/add', function () {
-    return view('admin.agency.detail');
+    return view('admin.agency.add');
 });
 
 // Order
@@ -137,7 +137,7 @@ Route::get('admin/order/edit/{id}', function ($id) {
 
 
 Route::get('admin/order/add', function () {
-    return view('admin.order.detail');
+    return view('admin.order.add');
 });
 
 // Labour

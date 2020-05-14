@@ -12,11 +12,11 @@
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/admin/dashboard">Trang chủ</a></li>
-                <li class="breadcrumb-item"><a href="/admin/company">Công ty</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Trang 1</li>
+                <li class="breadcrumb-item"><a href="/admin/company">Chương trình xuất khẩu</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Danh sách chương trình</li>
             </ol>
         </nav>
-        <h4 class="mb-1 mt-0">Danh sách công ty</h4>
+        <h4 class="mb-1 mt-0">Danh sách chương trình</h4>
     </div>
 </div>
 @endsection
@@ -27,12 +27,6 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="header-title mt-0 mb-1">Key Data Table</h4>
-                    <p class="sub-header">
-                        KeyTable provides Excel like cell navigation on any table. Events (focus, blur, action etc) can be assigned to individual
-                        cells, columns, rows or all cells.
-                    </p>
-
                     <table id="key-datatable" class="table dt-responsive nowrap">
                         <thead>
                             <tr>

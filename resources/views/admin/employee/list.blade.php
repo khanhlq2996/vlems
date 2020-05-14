@@ -13,10 +13,10 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/admin/dashboard">Trang chủ</a></li>
                 <li class="breadcrumb-item"><a href="/admin/company">Công ty</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Trang 1</li>
+                <li class="breadcrumb-item active" aria-current="page">Danh sách nhân viên</li>
             </ol>
         </nav>
-        <h4 class="mb-1 mt-0">Danh sách công ty</h4>
+        <h4 class="mb-1 mt-0">Danh sách nhân viên</h4>
     </div>
 </div>
 @endsection
@@ -27,21 +27,15 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="header-title mt-0 mb-1">Key Data Table</h4>
-                    <p class="sub-header">
-                        KeyTable provides Excel like cell navigation on any table. Events (focus, blur, action etc) can be assigned to individual
-                        cells, columns, rows or all cells.
-                    </p>
-
                     <table id="key-datatable" class="table dt-responsive nowrap">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>Họ tên</th>
+                                <th>Email</th>
+                                <th>Số điện thoại</th>
+                                <th>Ngày sinh</th>
+                                <th>Địa chỉ</th>
+                                <th>Số CMTND/Thẻ CCCD</th>
                             </tr>
                         </thead>
                     
