@@ -12,11 +12,11 @@
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/admin/dashboard">Trang chủ</a></li>
-                <li class="breadcrumb-item"><a href="/admin/company">Công ty</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Trang 1</li>
+                <li class="breadcrumb-item"><a href="/admin/company">Đơn hàng</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Danh sách Đơn hàng</li>
             </ol>
         </nav>
-        <h4 class="mb-1 mt-0">Danh sách công ty</h4>
+        <h4 class="mb-1 mt-0">Danh sách Đơn hàng</h4>
     </div>
 </div>
 @endsection
@@ -27,28 +27,23 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="header-title mt-0 mb-1">Key Data Table</h4>
-                    <p class="sub-header">
-                        KeyTable provides Excel like cell navigation on any table. Events (focus, blur, action etc) can be assigned to individual
-                        cells, columns, rows or all cells.
-                    </p>
 
                     <table id="key-datatable" class="table dt-responsive nowrap">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>Mã Đơn hàng</th>
+                                <th>Tên Đơn hàng</th>
+                                <th>Thị trường</th>
+                                <th>Ngành nghề</th>
+                                <th>Số lượng/Giới tính</th>
+                                <th>Yêu cầu trình độ</th>
                             </tr>
                         </thead>
                     
                     
                         <tbody>
                             <tr>
-                                <td><a href="/admin/company/detail/1">Nixon</a></td>
+                                <td><a href="/admin/order/detail/1">Nixon</a></td>
                                 <td>System Architect</td>
                                 <td>Edinburgh</td>
                                 <td>61</td>
@@ -56,7 +51,7 @@
                                 <td>$320,800</td>
                             </tr>
                             <tr>
-                                <td><a href="/admin/company/detail/1">Garrett Winters</a></td>
+                                <td><a href="/admin/order/detail/1">Garrett Winters</a></td>
                                 <td>Accountant</td>
                                 <td>Tokyo</td>
                                 <td>63</td>
@@ -64,7 +59,7 @@
                                 <td>$170,750</td>
                             </tr>
                             <tr>
-                                <td><a href="/admin/company/detail/1">Ashton Cox</a></td>
+                                <td><a href="/admin/order/detail/1">Ashton Cox</a></td>
                                 <td>Junior Technical Author</td>
                                 <td>San Francisco</td>
                                 <td>66</td>
@@ -72,7 +67,7 @@
                                 <td>$86,000</td>
                             </tr>
                             <tr>
-                                <td><a href="/admin/company/detail/1">Cedric Kelly</a></td>
+                                <td><a href="/admin/order/detail/1">Cedric Kelly</a></td>
                                 <td>Senior Javascript Developer</td>
                                 <td>Edinburgh</td>
                                 <td>22</td>
@@ -80,7 +75,7 @@
                                 <td>$433,060</td>
                             </tr>
                             <tr>
-                                <td><a href="/admin/company/detail/1">Airi Satou</a></td>
+                                <td><a href="/admin/order/detail/1">Airi Satou</a></td>
                                 <td>Accountant</td>
                                 <td>Tokyo</td>
                                 <td>33</td>
@@ -88,7 +83,7 @@
                                 <td>$162,700</td>
                             </tr>
                             <tr>
-                                <td><a href="/admin/company/detail/1">Brielle Williamson</a></td>
+                                <td><a href="/admin/order/detail/1">Brielle Williamson</a></td>
                                 <td>Integration Specialist</td>
                                 <td>New York</td>
                                 <td>61</td>
@@ -96,7 +91,7 @@
                                 <td>$372,000</td>
                             </tr>
                             <tr>
-                                <td><a href="/admin/company/detail/1">Herrod Chandler</a></td>
+                                <td><a href="/admin/order/detail/1">Herrod Chandler</a></td>
                                 <td>Sales Assistant</td>
                                 <td>San Francisco</td>
                                 <td>59</td>
@@ -104,7 +99,7 @@
                                 <td>$137,500</td>
                             </tr>
                             <tr>
-                                <td><a href="/admin/company/detail/1">Rhona Davidson</a></td>
+                                <td><a href="/admin/order/detail/1">Rhona Davidson</a></td>
                                 <td>Integration Specialist</td>
                                 <td>Tokyo</td>
                                 <td>55</td>
