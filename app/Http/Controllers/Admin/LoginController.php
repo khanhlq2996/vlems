@@ -18,6 +18,11 @@ class LoginController extends Controller
         return redirect()->route('dashboard.index');
     }
 
+    public function getRegister($type) {
+        $type = $type == config('constants.TYPE_ACCOUNT.COMPANY') ? Config::get('constants.TYPE_ACCOUNT.COMPANY') : config('constants.TYPE_ACCOUNT.AGENCY');
+        return view('admin.auth.register', compact('type'));
+    }
+
     public function postLogin(Request $request)
     {
         $validator = Validator()->make($request->all(), [

@@ -18,7 +18,6 @@ use Illuminate\Support\Str;
 
 $factory->define(User::class, function (Faker $faker) {
     return [
-        'name' => 'Gate',
         'email' => 'khiemgate1991@gmail.com',
         'email_verified_at' => now(),
         'password' => Hash::make('admin123'),

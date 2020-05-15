@@ -6,6 +6,7 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'web'], function () {
         Route::group(['middleware' => 'guest'], function () {
             Route::get('login', 'LoginController@index')->name('form.login');
             Route::post('login', 'LoginController@postLogin')->name('access.login');
+            Route::get('register/{type}', 'LoginController@getRegister')->name('access.register');
         });
 
         Route::group(['middleware' => 'auth'], function () {
@@ -216,13 +217,13 @@ Route::get('admin/labour/add', function () {
 //});
 
 
-Route::get('admin/{first}/{second}', function ($first, $second) {
-    return view('admin.' . $first . '.' . $second);
-});
+// Route::get('admin/{first}/{second}', function ($first, $second) {
+//     return view('admin.' . $first . '.' . $second);
+// });
 
-Route::get('admin/{first}/{second}/{third}', function ($first, $second, $third) {
-    return view('admin.' . $first . '.' . $second . '.' . $third);
-});
+// Route::get('admin/{first}/{second}/{third}', function ($first, $second, $third) {
+//     return view('admin.' . $first . '.' . $second . '.' . $third);
+// });
 
 
 Route::get('admin/charts', function () {
