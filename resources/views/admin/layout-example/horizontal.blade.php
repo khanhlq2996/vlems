@@ -250,7 +250,7 @@
                             <tr>
                                 <td>#98751</td>
                                 <td>Lightweight Jacket</td>
-                                <td>Shreyu N</td>
+                                <td>Admin Acc</td>
                                 <td>$49.49</td>
                                 <td><span class="badge badge-soft-success py-1">Delivered</span>
                                 </td>
@@ -282,7 +282,7 @@
                     <img src="/assets/images/users/avatar-7.jpg" class="avatar rounded mr-3"
                         alt="shreyu">
                     <div class="media-body">
-                        <h6 class="mt-1 mb-0 font-size-15">Shreyu N</h6>
+                        <h6 class="mt-1 mb-0 font-size-15">Admin Acc</h6>
                         <h6 class="text-muted font-weight-normal mt-1 mb-3">Senior Sales Guy</h6>
                     </div>
                     <div class="dropdown align-self-center float-right">
@@ -450,7 +450,7 @@
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input" id="task3">
                                 <label class="custom-control-label" for="task3">
-                                    Write a release note for Shreyu
+                                    Write a release note for Vietnam Labour Export Management Software
                                 </label>
                                 <p class="font-size-13 text-muted">Due on 22 Aug, 2019</p>
                             </div> <!-- end checkbox -->
@@ -554,7 +554,7 @@
                             </div>
                             <div class="conversation-text">
                                 <div class="ctext-wrap">
-                                    <i>Shreyu</i>
+                                    <i>Vietnam Labour Export Management Software</i>
                                     <p>
                                         Hi, How are you? What about our next meeting?
                                     </p>
@@ -582,7 +582,7 @@
                             </div>
                             <div class="conversation-text">
                                 <div class="ctext-wrap">
-                                    <i>Shreyu</i>
+                                    <i>Vietnam Labour Export Management Software</i>
                                     <p>
                                         Awesome! let me know if we can talk in 20 min
                                     </p>

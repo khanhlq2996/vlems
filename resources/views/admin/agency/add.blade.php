@@ -12,7 +12,7 @@
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                <li class="breadcrumb-item"><a href="#">Công ty</a></li>
+                <li class="breadcrumb-item"><a href="/admin/company/page/1">Công ty</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Thêm mới đại lý</li>
             </ol>
         </nav>

@@ -18,7 +18,7 @@
     <div class="col-md-12">
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Shreyu</a></li>
+                <li class="breadcrumb-item"><a href="#">Vietnam Labour Export Management Software</a></li>
                 <li class="breadcrumb-item"><a href="#">Forms</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Advanced</li>
             </ol>
@@ -45,7 +45,7 @@
                         <div class="form-group mt-3 mt-sm-0">
                             <label>Default</label>
                             <select data-plugin="customselect" class="form-control">
-                                <option value="0">Shreyu</option>
+                                <option value="0">Vietnam Labour Export Management Software</option>
                                 <option value="1">Greeva</option>
                                 <option value="2">Dhyanu</option>
                                 <option value="3" disabled>Disabled</option>
@@ -59,7 +59,7 @@
                             <label>Placeholder</label>
                             <select data-plugin="customselect" class="form-control" data-placeholder="Select an option">
                                 <option></option>
-                                <option value="0">Shreyu</option>
+                                <option value="0">Vietnam Labour Export Management Software</option>
                                 <option value="1">Greeva</option>
                                 <option value="2">Dhyanu</option>
                                 <option value="3" disabled>Disabled</option>
@@ -72,7 +72,7 @@
                         <div class="form-group mt-3 mt-sm-0">
                             <label class="d-block">Small Size</label>
                             <select data-plugin="customselect" class="small">
-                                <option value="0">Shreyu</option>
+                                <option value="0">Vietnam Labour Export Management Software</option>
                                 <option value="1">Greeva</option>
                                 <option value="2">Dhyanu</option>
                                 <option value="3" disabled>Disabled</option>
@@ -85,7 +85,7 @@
                         <div class="form-group mt-3 mt-xl-0">
                             <label>Multi Select</label>
                             <select class="form-control wide" data-plugin="customselect" multiple>
-                                <option value="0" selected>Shreyu</option>
+                                <option value="0" selected>Vietnam Labour Export Management Software</option>
                                 <option value="1">Greeva</option>
                                 <option value="2">Dhyanu</option>
                                 <option value="3" disabled>Disabled</option>

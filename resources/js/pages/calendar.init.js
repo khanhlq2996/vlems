@@ -1,5 +1,5 @@
 /*
-Template Name: Shreyu - Responsive Bootstrap 4 Admin Dashboard
+Template Name: Vietnam Labour Export Management Software - Responsive Bootstrap 4 Admin Dashboard
 Author: CoderThemes
 Version: 1.0.0
 Website: https://coderthemes.com/
@@ -65,7 +65,7 @@ File: Calendar init js
         var today = new Date($.now());
 
         var defaultEvents =  [{
-                title: 'Meeting with Mr. Shreyu',
+                title: 'Meeting with Mr. Vietnam Labour Export Management Software',
                 start: new Date($.now() + 158000000),
                 end: new Date($.now() + 338000000),
                 className: 'bg-warning'

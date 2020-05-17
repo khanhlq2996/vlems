@@ -1,6 +1,6 @@
 
 /*
-Template Name: Shreyu - Responsive Bootstrap 4 Admin Dashboard
+Template Name: Vietnam Labour Export Management Software - Responsive Bootstrap 4 Admin Dashboard
 Author: CoderThemes
 Version: 1.0.0
 Website: https://coderthemes.com/

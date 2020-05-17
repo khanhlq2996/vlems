@@ -10,7 +10,7 @@
     <div class="col-md-12">
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Shreyu</a></li>
+                <li class="breadcrumb-item"><a href="/">Vietnam Labour Export Management Software</a></li>
                 <li class="breadcrumb-item"><a href="">Pages</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Invoice</li>
             </ol>
@@ -29,7 +29,7 @@
                 <div class="clearfix">
                     <div class="float-sm-right">
                         <img src="/assets/images/logo.png" alt="" height="48" />
-                        <h4 class="m-0 d-inline align-middle">Shreyu</h4>
+                        <h4 class="m-0 d-inline align-middle">Vietnam Labour Export Management Software</h4>
                         <address class="pl-2 mt-2">
                             795 Folsom Ave, Suite 600<br>
                             San Francisco, CA 94107<br>
