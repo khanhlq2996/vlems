@@ -5,7 +5,7 @@
         <a href="/admin/" class="navbar-brand mr-0 mr-md-2 logo">
             <span class="logo-lg">
                 <img src="{{ URL::asset('assets/images/logo.png') }}" alt="" height="24" />
-                <span class="d-inline h5 ml-1 text-logo">Shreyu</span>
+                <span class="d-inline h5 ml-1 text-logo">Vietnam Labour Export Management Software</span>
             </span>
             <span class="logo-sm">
                 <img src="{{ URL::asset('assets/images/logo.png') }}" alt="" height="24">
@@ -121,7 +121,7 @@
                         <img src="{{ URL::asset('assets/images/users/avatar-7.jpg') }}" alt="user-image" class="rounded-circle align-self-center" />
                         <div class="media-body text-left">
                             <h6 class="pro-user-name ml-2 my-0">
-                                <span>Shreyu N</span>
+                                <span>Admin Acc</span>
                                 <span class="pro-user-desc text-muted d-block mt-1">Administrator </span>
                             </h6>
                         </div>

@@ -251,6 +251,56 @@ Route::get('nguoi-lao-dong/chinh-sua/{id}', function () {
     return view('labour.edit');
 });
 
+// Client Route
+
+Route::get('/', function () {
+    return view('home');
+});
+
+Route::get('dang-nhap.html', function () {
+    return view('login');
+});
+
+Route::get('cong-ty/', function () {
+    return view('company.list');
+});
+
+Route::get('cong-ty/trang/{id}/', function () {
+    return view('company.list');
+});
+
+Route::get('cong-ty/{id}.html', function () {
+    return view('company.detail');
+});
+
+Route::get('chuong-trinh/', function () {
+    return view('program.list');
+});
+
+Route::get('chuong-trinh/page/{id}', function () {
+    return view('program.list');
+});
+
+Route::get('nguoi-lao-dong/{id}', function () {
+    return view('labour.detail');
+});
+
+Route::get('nguoi-lao-dong', function () {
+    return view('labour.list');
+});
+
+Route::get('nguoi-lao-dong/trang/{id}', function () {
+    return view('labour.list');
+});
+
+Route::get('nguoi-lao-dong/{id}', function () {
+    return view('labour.detail');
+});
+
+Route::get('nguoi-lao-dong/chinh-sua/{id}', function () {
+    return view('labour.edit');
+});
+
 
 //// Packet
 //Route::get('admin/packet', function () {

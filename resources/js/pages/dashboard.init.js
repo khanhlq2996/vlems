@@ -1,6 +1,6 @@
 
 /*
-Template Name: Shreyu - Responsive Bootstrap 4 Admin Dashboard
+Template Name: Vietnam Labour Export Management Software - Responsive Bootstrap 4 Admin Dashboard
 Author: CoderThemes
 Version: 1.0.0
 Website: https://coderthemes.com/
@@ -27,7 +27,7 @@ File: Dashboard init js
             this.$chatInput.focus();
             return false;
         } else {
-            $('<li class="clearfix odd"><div class="chat-avatar"><img src="assets/images/users/avatar-7.jpg" alt="male"><i>' + chatTime + '</i></div><div class="conversation-text"><div class="ctext-wrap"><i>Shreyu</i><p>' + chatText + '</p></div></div></li>').appendTo('.conversation-list');
+            $('<li class="clearfix odd"><div class="chat-avatar"><img src="assets/images/users/avatar-7.jpg" alt="male"><i>' + chatTime + '</i></div><div class="conversation-text"><div class="ctext-wrap"><i>Vietnam Labour Export Management Software</i><p>' + chatText + '</p></div></div></li>').appendTo('.conversation-list');
             this.$chatInput.focus();
             this.$chatList.animate({ scrollTop: this.$chatList.prop("scrollHeight") }, 1000);
             return true;

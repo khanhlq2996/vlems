@@ -10,7 +10,7 @@
     <div class="col-md-12">
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Shreyu</a></li>
+                <li class="breadcrumb-item"><a href="#">Vietnam Labour Export Management Software</a></li>
                 <li class="breadcrumb-item"><a href="#">Apps</a></li>
                 <li class="breadcrumb-item"><a href="#">Tasks</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Tasks Board</li>
@@ -34,20 +34,20 @@
                         <div class="dropdown d-inline">
                             <a class="font-weight-bold dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Shreyu Design
+                                Vietnam Labour Export Management Software Design
                                 <i class='uil uil-angle-down font-size-16 align-middle'></i>
                             </a>
 
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item" href="#">
-                                    <i class="icon-dual icon-xs mr-2" data-feather="hard-drive"></i>Shreyu Design</a>
+                                    <i class="icon-dual icon-xs mr-2" data-feather="hard-drive"></i>Vietnam Labour Export Management Software Design</a>
                                 <a class="dropdown-item" href="#">
                                     <i class="icon-dual icon-xs mr-2" data-feather="briefcase"></i>Development</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">
-                                    <i class="icon-dual icon-xs mr-2" data-feather="folder-plus"></i>Shreyu Angular</a>
+                                    <i class="icon-dual icon-xs mr-2" data-feather="folder-plus"></i>Vietnam Labour Export Management Software Angular</a>
                                 <a class="dropdown-item" href="#">
-                                    <i class="icon-dual icon-xs mr-2" data-feather="folder-plus"></i>Shreyu React</a>
+                                    <i class="icon-dual icon-xs mr-2" data-feather="folder-plus"></i>Vietnam Labour Export Management Software React</a>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,7 @@
                                 <div class="mx-auto mb-5">
                                     <a href="/">
                                         <img src="/assets/images/logo.png" alt="" height="24" />
-                                        <h3 class="d-inline align-middle ml-1 text-logo">Shreyu</h3>
+                                        <h3 class="d-inline align-middle ml-1 text-logo">Vietnam Labour Export Management Software</h3>
                                     </a>
                                 </div>
 
