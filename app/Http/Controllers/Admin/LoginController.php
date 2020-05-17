@@ -3,7 +3,14 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Responses\BaseHttpResponse;
 use Illuminate\Http\Request;
+use App\Models\User;
+use App\Models\UserDetail;
+use Hash;
+use Validator;
+use Redirect;
+use DB;
 
 class LoginController extends Controller
 {
@@ -18,9 +25,49 @@ class LoginController extends Controller
         return redirect()->route('dashboard.index');
     }
 
-    public function getRegister($type) {
-        $type = $type == config('constants.TYPE_ACCOUNT.COMPANY') ? Config::get('constants.TYPE_ACCOUNT.COMPANY') : config('constants.TYPE_ACCOUNT.AGENCY');
-        return view('admin.auth.register', compact('type'));
+    public function getRegisterAgency()
+    {
+        return view('admin.auth.register-agency');
+    }
+
+    public function getRegisterCompany()
+    {
+        return view('admin.auth.register-company');
+    }
+
+    public function postRegister(Request $request, BaseHttpResponse $response)
+    {
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'representative' => 'required',
+            'representative_phone' => 'required|required|regex:/(0)[0-9]{8}/',
+            'phone' => 'required|regex:/(0)[0-9]{8}/',
+            'email' => 'required|email|unique:users',
+            'password' => 'required|confirmed|min:6'
+        ]);
+        if ($validator->fails()) {
+            return Redirect::back()->withErrors($validator);
+        }
+
+        DB::beginTransaction();
+        try {
+            $inputUser = $request->only('email', 'password', 'account_type');
+            $inputUser['password'] = Hash::make($inputUser['password']);
+            $user = User::create($inputUser);
+            if(!empty($user->id)) {
+                $inputUserDetail = $request->only('name', 'phone', 'address', 'representative', 'representative_phone', 'gender', 'account_type', 'indentity_number');
+                $inputUserDetail['user_id'] = $user->id;
+                $user = UserDetail::create($inputUserDetail);
+            }
+            
+            DB::commit();
+        } catch (Exception $e) {
+            DB::rollBack();
+            
+            throw new Exception($e->getMessage());
+        }
+
+        return view('admin.auth.login', compact('user'));
     }
 
     public function postLogin(Request $request)

@@ -6,7 +6,10 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'web'], function () {
         Route::group(['middleware' => 'guest'], function () {
             Route::get('login', 'LoginController@index')->name('form.login');
             Route::post('login', 'LoginController@postLogin')->name('access.login');
-            Route::get('register/{type}', 'LoginController@getRegister')->name('access.register');
+            Route::get('register/agency', 'LoginController@getRegisterAgency')->name('access.register-agency');
+            Route::post('register/agency', 'LoginController@postRegister')->name('form.register-agency');
+            Route::get('register/company', 'LoginController@getRegisterCompany')->name('access.register-company');
+            Route::post('register/company', 'LoginController@postRegister')->name('form.register-company');
         });
 
         Route::group(['middleware' => 'auth'], function () {
@@ -191,6 +194,10 @@ Route::get('admin/labour/edit/{id}', function ($id) {
 
 Route::get('admin/labour/add', function () {
     return view('admin.labour.detail');
+});
+
+Route::get('admin/form/validation', function () {
+    return view('admin.forms.validation');
 });
 
 

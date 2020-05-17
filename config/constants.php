@@ -3,7 +3,7 @@
 
 return [
 	'TYPE_ACCOUNT' => [
-        'AGENCY' => 'agency',
-        'COMPANY' => 'company'
+        'AGENCY' => '1',
+        'COMPANY' => '2'
     ]
 ];

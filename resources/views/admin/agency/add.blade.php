@@ -177,7 +177,7 @@
                                 <label class="col-lg-4 col-form-label" for="example-helping">Giới tính</label>
                                 <div class="col-lg-8">
                                     <input type="text" class="form-control" id="example-helping" placeholder="Giới tính">
-                            	</div>
+                                </div>
                             </div>
 
                             <div class="form-group row">

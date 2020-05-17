@@ -116,8 +116,11 @@
 
                 <div class="row mt-3">
                     <div class="col-12 text-center">
-                        <p class="text-muted">Don't have an account? <a href="#"
-                                class="text-primary font-weight-bold ml-1">Sign Up</a></p>
+                        <p class="text-muted">Don't have an account? 
+                            <a href="{{ route('access.register-agency') }}" class="text-primary font-weight-bold ml-1">Agency</a>
+                            or
+                            <a href="{{ route('access.register-company') }}" class="text-primary font-weight-bold ml-1">Company</a>
+                        </p>
                     </div> <!-- end col -->
                 </div>
                 <!-- end row -->

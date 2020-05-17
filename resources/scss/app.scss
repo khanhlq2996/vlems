@@ -111,3 +111,28 @@ File: Main Css File
 @import "custom/pages/extra-pages";
 /* 23. Authentication */
 @import "custom/pages/authentication";
+
+
+.input-invalid {
+    border-color: #ff5c75;
+    padding-right: calc(1.5em + 1rem);
+    background-repeat: no-repeat;
+    background-position: center right calc(0.375em + 0.25rem);
+    background-size: calc(0.75em + 0.5rem) calc(0.75em + 0.5rem);
+}
+
+.input-valid {
+    border-color: #43d39e;
+    padding-right: calc(1.5em + 1rem);
+    background-repeat: no-repeat;
+    background-position: center right calc(0.375em + 0.25rem);
+    background-size: calc(0.75em + 0.5rem) calc(0.75em + 0.5rem);
+}
+
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #ff5c75;
+}
