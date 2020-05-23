@@ -39,7 +39,7 @@
                                             </div>
                                             <input type="email"
                                                 class="form-control @if($errors->has('email')) is-invalid @endif" id="
-                                                email" placeholder="hello@coderthemes.com" name="email" value="{{ old('email')}}" />
+                                                email" placeholder="hello@coderthemes.com" name="email" value="@if(!empty($user['email'])) {{$user['email']}} @endif" />
 
                                             @if($errors->has('email'))
                                             <span class="invalid-feedback" role="alert">
@@ -61,7 +61,7 @@
                                                 </span>
                                             </div>
                                             <input type="password" class="form-control @if($errors->has('password')) is-invalid @endif" id="password"
-                                                placeholder="Enter your password"  name="password" />
+                                                placeholder="Enter your password" value="@if(!empty($user['password'])) {{$user['password']}} @endif" password" />
 
                                             @if($errors->has('password'))
                                             <span class="invalid-feedback" role="alert">
