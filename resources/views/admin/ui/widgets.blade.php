@@ -10,7 +10,7 @@
     <div class="col-md-12">
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Shreyu</a></li>
+                <li class="breadcrumb-item"><a href="#">Vietnam Labour Export Management Software</a></li>
                 <li class="breadcrumb-item"><a href="#">Components</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Widgets</li>
             </ol>
@@ -275,7 +275,7 @@
             <div class="card-body pb-0">
                 <div class="text-center mt-3">
                     <img src="/assets/images/users/avatar-7.jpg" alt="" class="avatar-xl rounded-circle" />
-                    <h5 class="mt-2 mb-0">Shreyu N</h5>
+                    <h5 class="mt-2 mb-0">Admin Acc</h5>
                     <h6 class="text-muted font-weight-normal mt-2 mb-4">User Experience
                         Specialist
                     </h6>
@@ -284,7 +284,7 @@
                     <button type="button" class="btn btn-white btn-sm">Message</button>
 
                     <div class="mt-4 pt-3 border-top text-left">
-                        <p class="text-muted mb-2">Hi I'm Shreyu. I am user experience and user
+                        <p class="text-muted mb-2">Hi I'm Vietnam Labour Export Management Software. I am user experience and user
                             interface designer.
                             I have been working on UI & UX since last 10 years.</p>
 
@@ -299,7 +299,7 @@
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card profile-widget">
-            <img src="/assets/images/covers/2.jpg" alt="Shreyu" class="card-img-top" />
+            <img src="/assets/images/covers/2.jpg" alt="Vietnam Labour Export Management Software" class="card-img-top" />
             <div class="dropdown card-action float-right">
                 <a href="#" class="dropdown-toggle arrow-none" data-toggle="dropdown" aria-expanded="false">
                     <i class="uil uil-ellipsis-v font-size-16 text-white"></i>
@@ -319,7 +319,7 @@
             <div class="card-body text-center p-0">
                 <div class="profile-info pb-3">
                     <img src="/assets/images/users/avatar-7.jpg" alt="" class="img-thumbnail avatar-xl rounded-circle" />
-                    <h5 class="mt-2 mb-0">Shreyu N</h5>
+                    <h5 class="mt-2 mb-0">Admin Acc</h5>
                     <h6 class="text-muted font-weight-normal mt-2 mb-4">User Experience
                         Specialist
                     </h6>
@@ -336,7 +336,7 @@
                 <div class="media">
                     <img src="/assets/images/users/avatar-7.jpg" class="avatar-lg rounded-circle mr-2" alt="shreyu">
                     <div class="media-body">
-                        <h5 class="mt-2 mb-0">Shreyu N</h5>
+                        <h5 class="mt-2 mb-0">Admin Acc</h5>
                         <h6 class="text-muted font-weight-normal mt-1 mb-4">New York, USA</h6>
                     </div>
                     <div class="dropdown float-right">
@@ -373,7 +373,7 @@
                 </div>
 
                 <div class="mt-1 pt-2 border-top text-left">
-                    <p class="text-muted mb-2">Hi I'm Shreyu. I am foodie and love to eat different
+                    <p class="text-muted mb-2">Hi I'm Vietnam Labour Export Management Software. I am foodie and love to eat different
                         cuisine!</p>
                 </div>
 
@@ -409,7 +409,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title mb-1">Shreyu N</h5>
+                        <h5 class="card-title mb-1">Admin Acc</h5>
                         <h6 class="text-muted font-weight-normal mt-0 mb-3">New York, USA</h6>
                         <div class="card-text row text-center">
                             <div class="col">
@@ -429,7 +429,7 @@
                 <div class="media">
                     <img src="/assets/images/users/avatar-7.jpg" class="mr-3 avatar-lg rounded" alt="shreyu">
                     <div class="media-body">
-                        <h5 class="mt-1 mb-0">Shreyu N</h5>
+                        <h5 class="mt-1 mb-0">Admin Acc</h5>
                         <h6 class="font-weight-normal mt-1 mb-1">
                             <a href="">@shreyu</a>
                         </h6>
@@ -487,7 +487,7 @@
                 <div class="media border-top pt-3">
                     <img src="/assets/images/users/avatar-7.jpg" class="avatar rounded mr-3" alt="shreyu">
                     <div class="media-body">
-                        <h6 class="mt-1 mb-0 font-size-15">Shreyu N</h6>
+                        <h6 class="mt-1 mb-0 font-size-15">Admin Acc</h6>
                         <h6 class="text-muted font-weight-normal mt-1 mb-3">Senior Sales Guy</h6>
                     </div>
                     <div class="dropdown align-self-center float-right">
@@ -638,7 +638,7 @@
                                 <p class="text-muted mb-0 font-size-13">
                                     <i class="uil uil-calender mr-1"></i>5:30 PM - 06:15 PM
                                 </p>
-                                <h6 class="mt-1 font-size-16">Shreyu React Planning</h6>
+                                <h6 class="mt-1 font-size-16">Vietnam Labour Export Management Software React Planning</h6>
                             </li>
                             <li>
                                 <a href="" class="btn btn-primary btn-block w-75 mb-0"><i
@@ -696,7 +696,7 @@
                             </div>
                             <div class="conversation-text">
                                 <div class="ctext-wrap">
-                                    <i>Shreyu</i>
+                                    <i>Vietnam Labour Export Management Software</i>
                                     <p>
                                         Hi, How are you? What about our next meeting?
                                     </p>
@@ -724,7 +724,7 @@
                             </div>
                             <div class="conversation-text">
                                 <div class="ctext-wrap">
-                                    <i>Shreyu</i>
+                                    <i>Vietnam Labour Export Management Software</i>
                                     <p>
                                         Awesome! let me know if we can talk in 20 min
                                     </p>
@@ -838,7 +838,7 @@
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="task3">
                             <label class="custom-control-label" for="task3">
-                                Write a release note for Shreyu
+                                Write a release note for Vietnam Labour Export Management Software
                             </label>
                             <p class="font-size-13 text-muted">Due on 22 Aug, 2019</p>
                         </div> <!-- end checkbox -->
@@ -884,7 +884,7 @@
                     <img src="/assets/images/users/avatar-7.jpg" class="mr-3 avatar rounded-circle" alt="shreyu" />
                     <div class="media-body">
                         <h6 class="mt-0 mb-0 font-size-15 font-weight-normal">
-                            <a href="" class="font-weight-bold">Shreyu</a> has attached design-draft.sketch in project
+                            <a href="" class="font-weight-bold">Vietnam Labour Export Management Software</a> has attached design-draft.sketch in project
                             <span class="font-weight-bold text-primary">Admin</span>
                         </h6>
                         <p class="text-muted">2 Min Ago</p>
@@ -910,7 +910,7 @@
                         <h6 class="mt-0 mb-0 font-size-15 font-weight-normal">
                             <a href="" class="font-weight-bold">Mannat</a> has reacted with <i
                                 class='uil uil-thumbs-up text-success font-size-13'></i> on comment from <span
-                                class="font-weight-bold text-primary">Shreyu</span> on project <span
+                                class="font-weight-bold text-primary">Vietnam Labour Export Management Software</span> on project <span
                                 class="font-weight-bold text-primary">Admin</span>
                         </h6>
                         <p class="text-muted">14 Min Ago</p>
@@ -925,7 +925,7 @@
                         <h6 class="mt-0 mb-0 font-size-15 font-weight-normal">
                             <a href="" class="font-weight-bold">Dhyani</a> has reacted with <i
                                 class='uil uil-heart-sign text-danger font-size-13'></i> on comment
-                            from <span class="font-weight-bold text-primary">Shreyu</span> on project <span
+                            from <span class="font-weight-bold text-primary">Vietnam Labour Export Management Software</span> on project <span
                                 class="font-weight-bold text-primary">Admin</span>
                         </h6>
                         <p class="text-muted">14 Min Ago</p>

@@ -10,7 +10,7 @@
     <div class="col-md-12">
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Shreyu</a></li>
+                <li class="breadcrumb-item"><a href="/">Vietnam Labour Export Management Software</a></li>
                 <li class="breadcrumb-item"><a href="">Components</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Bootstrap UI</li>
             </ol>
@@ -79,7 +79,7 @@
                             data-toggle="toast">
                             <div class="toast-header">
                                 <img src="/assets/images/logo.svg" alt="brand-logo" height="18" class="mr-1" />
-                                <strong class="mr-auto">Shreyu</strong>
+                                <strong class="mr-auto">Vietnam Labour Export Management Software</strong>
                                 <small>11 mins ago</small>
                                 <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -95,7 +95,7 @@
                             data-toggle="toast">
                             <div class="toast-header">
                                 <img src="/assets/images/logo.svg" alt="brand-logo" height="18" class="mr-1" />
-                                <strong class="mr-auto">Shreyu</strong>
+                                <strong class="mr-auto">Vietnam Labour Export Management Software</strong>
                                 <small>12 mins ago</small>
                                 <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -110,7 +110,7 @@
                             data-toggle="toast">
                             <div class="toast-header">
                                 <img src="/assets/images/logo.svg" alt="brand-logo" height="18" class="mr-1" />
-                                <strong class="mr-auto">Shreyu</strong>
+                                <strong class="mr-auto">Vietnam Labour Export Management Software</strong>
                                 <small>15 mins ago</small>
                                 <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -125,7 +125,7 @@
                             data-toggle="toast" data-autohide="false">
                             <div class="toast-header">
                                 <img src="/assets/images/logo.svg" alt="brand-logo" height="18" class="mr-1" />
-                                <strong class="mr-auto">Shreyu</strong>
+                                <strong class="mr-auto">Vietnam Labour Export Management Software</strong>
                                 <small>21 mins ago</small>
                                 <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>

@@ -10,7 +10,7 @@
     <div class="col-md-12">
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Shreyu</a></li>
+                <li class="breadcrumb-item"><a href="/">Vietnam Labour Export Management Software</a></li>
                 <li class="breadcrumb-item"><a href="">Tables</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Basic</li>
             </ol>
@@ -22,7 +22,7 @@
 
 @php
 $data = [
-["firstname" => 'Sheryu', 'lastname' => 'N', 'handle' => '@Shreyu', 'css_class' => 'active'],
+["firstname" => 'Sheryu', 'lastname' => 'N', 'handle' => '@Vietnam Labour Export Management Software', 'css_class' => 'active'],
 ["firstname" => 'Greeva', 'lastname' => 'Y', 'handle' => '@greeva', 'css_class' => 'success'],
 ["firstname" => 'Mannat', 'lastname' => 'B', 'handle' => '@mannu', 'css_class' => 'danger'],
 ["firstname" => 'Dhaynu', 'lastname' => 'B', 'handle' => '@dhayanu', 'css_class' => 'warning']

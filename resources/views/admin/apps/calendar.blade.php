@@ -20,7 +20,7 @@
     <div class="col-md-12">
         <nav aria-label="breadcrumb" class="float-right mt-1">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Shreyu</a></li>
+                <li class="breadcrumb-item"><a href="/">Vietnam Labour Export Management Software</a></li>
                 <li class="breadcrumb-item"><a href="">Apps</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Calendar</li>
             </ol>
@@ -140,7 +140,7 @@
 <script type="text/javascript">
     var today = new Date($.now());
     var defaultEvents =  [{
-        title: 'Meeting with Mr. Shreyu',
+        title: 'Meeting with Mr. Vietnam Labour Export Management Software',
         start: new Date($.now() + 158000000),
         end: new Date($.now() + 338000000),
         className: 'bg-warning'
